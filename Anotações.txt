@@ -1,0 +1,48 @@
+# Sintaxe Básica de R
+
+1. Atribuição de Variáveis:
+   Em R, você pode atribuir valores a variáveis usando o operador <- ou o operador =. Por exemplo:
+   x <- 10
+   y = 5
+
+2. Tipos de Dados:
+   - Numeric: Números reais, por exemplo, 5.3, -10.
+   - Integer: Números inteiros, por exemplo, 5L, 10L.
+   - Character: Sequências de caracteres, por exemplo, "hello", 'R programming'.
+   - Logical: Valores booleanos, TRUE ou FALSE.
+
+3. Operadores Aritméticos:
+   - +, -, *, / para adição, subtração, multiplicação e divisão, respectivamente.
+   - ^ ou ** para exponenciação.
+   - %% para o operador de módulo (resto da divisão inteira).
+
+4. Operadores Lógicos:
+   - ==, != para igualdade e desigualdade.
+   - <, <=, >, >= para comparações.
+   - ! para negação, & para AND, | para OR.
+
+5. Estruturas de Controle:
+   - if-else: Para tomar decisões com base em condições.
+     if (condição) {
+       # Código a ser executado se a condição for verdadeira
+     } else {
+       # Código a ser executado se a condição for falsa
+     }
+
+   - for loop: Para iterar sobre uma sequência.
+     for (i in sequência) {
+       # Código a ser repetido para cada elemento da sequência
+     }
+
+   - while loop: Para repetir um bloco de código enquanto uma condição for verdadeira.
+     while (condição) {
+       # Código a ser repetido enquanto a condição for verdadeira
+     }
+
+6. Funções:
+   - Para definir uma função, você pode usar a palavra-chave function. Por exemplo:
+     nome_da_função <- function(argumentos) {
+       # Corpo da função
+     }
+
+   - Para chamar uma função, basta usar seu nome seguido pelos argumentos entre parênteses.
